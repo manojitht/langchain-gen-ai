@@ -16,7 +16,7 @@ messages = [
 # ---- LangChain OpenAI Chat Model Example ----
 
 # Create a ChatOpenAI model
-model = ChatOpenAI(model="gpt-4o")
+model = ChatOpenAI(model="gpt-4o-mini")
 
 # Invoke the model with messages
 result = model.invoke(messages)
